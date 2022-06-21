@@ -240,7 +240,7 @@
     min-height: 32px;
 }
 .popup__close-icon:hover {
-    opacity: .6;
+    opacity: .5;
 }
 @media (max-width: 768px) {
     .container{
