@@ -1,0 +1,23 @@
+.page__min{
+    max-width: 1280px;
+    padding: 0 148px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+    .page__min{
+        padding: 0 48px;
+    }
+}
+@media (max-width: 768px) {
+    .page__min{
+        padding: 0 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .page__min{
+        padding: 0 16px;
+    }
+}
