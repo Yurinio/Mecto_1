@@ -1,0 +1,16 @@
+.element__vector {
+    overflow: hidden;
+    border: none;
+    background: url(../../../images/5.png) center no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    height: 19px;
+    width: 22px;
+    transition: 0.3s;
+}
+.element__vector:focus {
+    background-image: url(../../../images/like-dark.svg);
+}
+.element__vector:hover {
+    opacity: .5;
+}

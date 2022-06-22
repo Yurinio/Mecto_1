@@ -1,0 +1,8 @@
+@media (max-width: 320px) {
+.profile__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0 14px;
+}
+}

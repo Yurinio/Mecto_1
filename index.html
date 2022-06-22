@@ -13,27 +13,26 @@
 <body>
 
     <div class="page">
-        <header class="header container">
+        <header class="header page__container">
             <img src="./images/header-logo.svg" class="header__logo">
             <div class="header__line"></div>
         </header>
-        <section class="profile container">
+        <section class="profile page__container">
             <div class="profile__form">
                 <img src="./images/Avatar.png" alt="Автар" class="profile__avatar">
                 <div class="profile__info">
                     <h2 class="profile__title">
                         <span id="title">Жак-Ив Кусто</span>
-                        <img src="./images/Edit Button.png"
-                            class="profile__edit-button">
+                        <img src="./images/Edit Button.png" class="profile__edit-button">
                     </h2>
                     <p class="profile__subtitle">Исследователь океана</p>
                 </div>
             </div>
             <div class="profile__button">
-                <img src="./images/Vector (2).svg" class="profile__button_link">
+                <img src="./images/Vector (2).svg" class="profile__button-link">
             </div>
         </section>
-        <section class="elements container">
+        <section class="elements page__container">
             <ul class="elements__list">
                 <li class="element">
                     <img class="element__img" src="./images/kirill-pershin-1088404-unsplash (2).jpg" alt="">
@@ -79,7 +78,7 @@
                 </li>
             </ul>
         </section>
-        <footer class="footer container">
+        <footer class="footer page__container">
             <p class="footer__copyright">&#169; 2020 Mesto Russia</p>
         </footer>
     </div>
@@ -88,10 +87,9 @@
             <div class="popup__content">
                 <h2 class="popup__title">Редактировать профиль</h2>
                 <form class="popup__form">
-                    <input type="text" class="popup__field popup__field_heading" id="headingTitle" name="heading"
+                    <input type="text" class="popup__field popup__field_heading" id="name" name="text"
                         placeholder="Имя">
-                    <input type="text" class="popup__field popup__field" id="headingDecription" name="heading"
-                        placeholder="Описание">
+                    <input type="text" class="popup__field popup__field" id="job" name="text" placeholder="Описание">
                     <button type="submit" class="popup__button">Сохранить</button>
                 </form>
                 <a href="#" class="popup__close-icon"><img class="popup__close-img" src="./images/Close Icon.svg"></a>
