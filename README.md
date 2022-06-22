@@ -16,4 +16,4 @@
 
 ***
 **Ссылка проект**
-https://yurinio.github.io/russian-travel-deploy/
+https://yurinio.github.io/sprint-4/
